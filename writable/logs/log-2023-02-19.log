@@ -1,0 +1,69 @@
+INFO - 2023-02-19 23:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-19 23:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-19 23:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-19 23:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-19 23:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-19 23:55:41 --> Undefined variable $title
+in APPPATH\Views\v_editMahasiswa.php on line 4.
+ 1 APPPATH\Views\v_editMahasiswa.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\v_editMahasiswa.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_editMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_editMahasiswa', [], true)
+ 5 APPPATH\Controllers\c_mahasiswa.php(34): view('v_editMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->edit('211511098')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-19 23:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-19 23:56:01 --> Undefined array key "NIM"
+in APPPATH\Views\v_editMahasiswa.php on line 11.
+ 1 APPPATH\Views\v_editMahasiswa.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NIM"', 'APPPATH\\Views\\v_editMahasiswa.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_editMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_editMahasiswa', [], true)
+ 5 APPPATH\Controllers\c_mahasiswa.php(34): view('v_editMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->edit('211511098')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-19 23:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-19 23:58:00 --> Undefined variable $data
+in APPPATH\Views\v_editMahasiswa.php on line 11.
+ 1 APPPATH\Views\v_editMahasiswa.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\v_editMahasiswa.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_editMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_editMahasiswa', [], true)
+ 5 APPPATH\Controllers\c_mahasiswa.php(34): view('v_editMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->edit('211511098')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-19 23:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-19 23:58:02 --> Undefined variable $data
+in APPPATH\Views\v_editMahasiswa.php on line 11.
+ 1 APPPATH\Views\v_editMahasiswa.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\v_editMahasiswa.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_editMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_editMahasiswa', [], true)
+ 5 APPPATH\Controllers\c_mahasiswa.php(34): view('v_editMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->edit('211511098')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-19 23:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-19 23:59:08 --> Undefined array key "NIM"
+in APPPATH\Views\v_editMahasiswa.php on line 11.
+ 1 APPPATH\Views\v_editMahasiswa.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "NIM"', 'APPPATH\\Views\\v_editMahasiswa.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_editMahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_editMahasiswa', [], true)
+ 5 APPPATH\Controllers\c_mahasiswa.php(34): view('v_editMahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->edit('211511098')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

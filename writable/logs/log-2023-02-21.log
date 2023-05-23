@@ -1,0 +1,50 @@
+INFO - 2023-02-21 04:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 04:40:45 --> Undefined variable $model
+in APPPATH\Controllers\c_login.php on line 25.
+ 1 APPPATH\Controllers\c_login.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', 'APPPATH\\Controllers\\c_login.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 04:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 04:41:18 --> Undefined variable $admin
+in APPPATH\Controllers\c_login.php on line 25.
+ 1 APPPATH\Controllers\c_login.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'APPPATH\\Controllers\\c_login.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 04:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 04:42:38 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 267
+in SYSTEMPATH\Database\BaseResult.php on line 382.
+ 1 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseResult->getFirstRow(null)
+ 2 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 3 APPPATH\Models\m_Admin.php(38): CodeIgniter\BaseModel->first()
+ 4 APPPATH\Controllers\c_login.php(19): App\Models\m_Admin->cariUser('nasrulloh')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_login->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_login))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 04:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-21 04:48:48 --> Undefined array key "gagal"
+in APPPATH\Controllers\c_login.php on line 34.
+ 1 APPPATH\Controllers\c_login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gagal"', 'APPPATH\\Controllers\\c_login.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-21 04:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-21 04:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

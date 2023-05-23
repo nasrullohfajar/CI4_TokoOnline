@@ -1,0 +1,155 @@
+CRITICAL - 2023-02-05 11:14:50 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, App\Models\m_Mahasiswa given
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): mysqli_query(Object(App\Models\m_Mahasiswa), 'select * from mahasiswa')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:18:42 --> Undefined property: App\Controllers\c_Mahasiswa::$db
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_Mahasiswa::$db', 'APPPATH\\Controllers\\c_Mahasiswa.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:19:23 --> Undefined property: App\Controllers\c_Mahasiswa::$db
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_Mahasiswa::$db', 'APPPATH\\Controllers\\c_Mahasiswa.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:19:48 --> Undefined property: App\Controllers\c_Mahasiswa::$db
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_Mahasiswa::$db', 'APPPATH\\Controllers\\c_Mahasiswa.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:20:01 --> Undefined property: App\Controllers\c_Mahasiswa::$db
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_Mahasiswa::$db', 'APPPATH\\Controllers\\c_Mahasiswa.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:22:21 --> Undefined variable $data
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\c_Mahasiswa.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:36:43 --> Undefined property: App\Controllers\c_Mahasiswa::$db
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\c_Mahasiswa::$db', 'APPPATH\\Controllers\\c_Mahasiswa.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:49:31 --> Call to a member function getAll() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:50:22 --> Call to a member function getAll() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:50:26 --> Call to a member function getAll() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:51:51 --> Call to a member function getAll() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:52:23 --> Call to a member function query() on null
+in APPPATH\Models\m_Mahasiswa.php on line 18.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(16): App\Models\m_Mahasiswa->getAll()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:57:38 --> Call to a member function getAll() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:58:14 --> Call to a member function getAll() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:59:05 --> Call to a member function getData() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 11:59:28 --> Call to a member function getData() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 12:02:13 --> Call to a member function getData() on null
+in APPPATH\Controllers\c_Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 12:41:41 --> Call to undefined method App\Models\m_Mahasiswa::getData
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\c_Mahasiswa.php(19): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 12:42:45 --> syntax error, unexpected token ")"
+in APPPATH\Views\v_displayMahasiswa.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_displayMahasiswa', [], true)
+ 3 APPPATH\Controllers\c_Mahasiswa.php(20): view('v_displayMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 12:42:57 --> syntax error, unexpected token ")"
+in APPPATH\Views\v_displayMahasiswa.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_displayMahasiswa', [], true)
+ 3 APPPATH\Controllers\c_Mahasiswa.php(20): view('v_displayMahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_Mahasiswa->display()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

@@ -1,0 +1,163 @@
+CRITICAL - 2023-02-14 07:23:05 --> Undefined variable $data
+in APPPATH\Models\m_Mahasiswa.php on line 22.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Models\\m_Mahasiswa.php', 22)
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-14 07:24:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-14 07:24:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where NIM=\'211511050')
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-14 07:28:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-14 07:28:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where NIM=\'211511050')
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-14 07:38:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-14 07:38:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where NIM=\'211511050')
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-14 07:41:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-14 07:41:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where NIM=\'211511050')
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-14 07:43:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-14 07:43:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where NIM=\'211511050')
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-14 07:45:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-14 07:45:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where NIM=\'211511050')
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-14 07:47:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-14 07:47:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''211511050' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where NIM=\'211511050')
+ 2 APPPATH\Controllers\c_mahasiswa.php(25): App\Models\m_Mahasiswa->getDataDetail('211511050')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->detail('211511050')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

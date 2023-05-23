@@ -1,0 +1,231 @@
+INFO - 2023-03-28 06:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 06:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 07:10:45 --> Call to undefined method App\Models\m_Mahasiswa::paginates
+in SYSTEMPATH\Model.php on line 841.
+ 1 APPPATH\Controllers\c_mahasiswa.php(20): CodeIgniter\Model->__call('paginates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:11:16 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(20): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:18:55 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(22): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:19:29 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(22): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:24:53 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(20): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:27:18 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(20): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-28 07:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-28 07:27:26 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(20): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:28:25 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(20): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:28:28 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(20): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:30:21 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(22): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:30:49 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(22): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:31:45 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(22): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:32:21 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(22): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:32:49 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(22): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:35:59 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(24): CodeIgniter\BaseModel->paginate(3)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:37:15 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(24): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:40:40 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(25): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:43:42 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(25): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-28 07:44:19 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Model.php on line 241
+in SYSTEMPATH\Database\BaseResult.php on line 103.
+ 1 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseResult->getResult(null)
+ 2 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(3, 0)
+ 3 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(3, 0)
+ 4 APPPATH\Controllers\c_mahasiswa.php(25): CodeIgniter\BaseModel->paginate(3, 'mahasiswa')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-28 07:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 07:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-28 08:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

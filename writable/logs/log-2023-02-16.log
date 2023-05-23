@@ -1,0 +1,138 @@
+INFO - 2023-02-16 04:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:18:12 --> Undefined array key "login"
+in APPPATH\Controllers\c_login.php on line 31.
+ 1 APPPATH\Controllers\c_login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', 'APPPATH\\Controllers\\c_login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:18:21 --> Undefined array key "login"
+in APPPATH\Controllers\c_login.php on line 31.
+ 1 APPPATH\Controllers\c_login.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', 'APPPATH\\Controllers\\c_login.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_login->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:28:52 --> Too few arguments to function App\Controllers\c_mahasiswa::cari(), 0 passed in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_mahasiswa.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:30:24 --> Too few arguments to function App\Controllers\c_mahasiswa::cari(), 0 passed in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_mahasiswa.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-16 04:31:29 --> Too few arguments to function App\Controllers\c_mahasiswa::cari(), 0 passed in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_mahasiswa.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:31:45 --> Too few arguments to function App\Controllers\c_mahasiswa::cari(), 0 passed in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_mahasiswa.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:34:27 --> Too few arguments to function App\Controllers\c_mahasiswa::cari(), 0 passed in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_mahasiswa.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:35:09 --> Too few arguments to function App\Controllers\c_mahasiswa::cari(), 0 passed in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_mahasiswa.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-16 04:37:49 --> Too few arguments to function App\Controllers\c_mahasiswa::cari(), 0 passed in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\c_mahasiswa.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->cari()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-16 04:45:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Models\m_Mahasiswa.php(38): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\PPL\Pertemuan4\Hello\app\Controllers\c_mahasiswa.php(18): App\Models\m_Mahasiswa->cariNama('Fajar')
+#5 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+#6 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+#7 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PPL\Pertemuan4\Hello\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PPL\Pertemuan4\Hello\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-02-16 04:45:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\m_Mahasiswa.php(38): CodeIgniter\Database\BaseConnection->query('SELECT * FROM mahasiswa where Nama like \'%Fajar\'%')
+ 2 APPPATH\Controllers\c_mahasiswa.php(18): App\Models\m_Mahasiswa->cariNama('Fajar')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\c_mahasiswa->display()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\c_mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-16 04:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 04:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 05:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 05:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 05:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 05:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-16 05:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
